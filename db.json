@@ -1,0 +1,46 @@
+{
+  "locations": [
+    {
+      "id": "loc1",
+      "location": {
+        "id": "loc1",
+        "name": "Supermercado Central",
+        "address": "Av. Rivadavia 1234, Buenos Aires",
+        "monitors": [
+          {
+            "id": "mon1",
+            "name": "Monitor Zona Lácteos",
+            "status": "online",
+            "lastConnection": "2024-05-23T10:45:00Z",
+            "alerts": [],
+            "refrigerators": [
+              {
+                "id": "ref1",
+                "name": "Heladera Lácteos 1",
+                "currentTemp": 3.5,
+                "minTemp": 2,
+                "maxTemp": 6,
+                "lastUpdated": "2024-05-23T10:45:00Z",
+                "detail": "Heladera principal para productos lácteos",
+                "enableAlert": true,
+                "device": {
+                  "id": 1,
+                  "serialNumber": "SN12345",
+                  "model": "TempSensor Pro"
+                },
+                "refrigeratorType": {
+                  "id": 1,
+                  "name": "Lácteos",
+                  "description": "Heladera para almacenamiento de productos lácteos",
+                  "defaultMaxTemp": 6,
+                  "defaultMinDecimal": 2
+                },
+                "alerts": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
